@@ -12,7 +12,6 @@ interface Props {
 }
 
 const RISK_COLOR = { LOW: 'var(--green)', MEDIUM: 'var(--yellow)', HIGH: 'var(--red)' };
-const RISK_FILL = { LOW: 'rgba(16, 185, 129, 0.35)', MEDIUM: 'rgba(245, 158, 11, 0.35)', HIGH: 'rgba(239, 68, 68, 0.35)' };
 
 // Pune district rough GPS polygon data for neighborhoods
 const CITY_PATHS: Record<string, [number, number][]> = {
@@ -24,7 +23,7 @@ const CITY_PATHS: Record<string, [number, number][]> = {
 };
 
 // Auto-fit bounds component
-function MapBounds({ regions }: { regions: RegionData[] }) {
+function MapBounds() {
   const map = useMap();
   map.fitBounds([
     [18.515, 73.720], // SW roughly
@@ -84,7 +83,7 @@ export default function CityMap({ regions, selectedId, onSelect, theme }: Props)
               url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
               opacity={theme === 'dark' ? 0.9 : 1}
             />
-            <MapBounds regions={regions} />
+            <MapBounds />
 
             {regions.map(region => {
               const positions = CITY_PATHS[region.id];

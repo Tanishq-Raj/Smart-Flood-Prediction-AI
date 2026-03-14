@@ -1,6 +1,6 @@
 import {
   LineChart, Line, AreaChart, Area, XAxis, YAxis,
-  CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar,
+  CartesianGrid, Tooltip, ResponsiveContainer,
   ReferenceLine
 } from 'recharts';
 import type { ChartPoint } from '../types';
