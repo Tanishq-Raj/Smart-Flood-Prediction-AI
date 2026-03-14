@@ -1,0 +1,213 @@
+Smart Urban Flood Prediction AI
+You are an expert AI software architect, UI/UX designer, and full-stack developer. Your task is to design and generate a complete AI-powered application called “Smart Urban Flood Prediction AI.”
+
+The goal of the system is to help smart cities predict urban flooding and waterlogging before it happens using rainfall data, drainage capacity information, and water level sensors.
+
+The final product should look like a professional smart city disaster monitoring dashboard used by municipal authorities.
+
+Focus on clean architecture, modern UI/UX, strong interactivity, and realistic simulation of city infrastructure monitoring systems.
+
+Project Objective
+
+Design a system that predicts flood risk in urban areas using environmental data and displays the results through a visual, interactive dashboard.
+
+The system should also generate AI-based emergency reports recommending actions for city authorities.
+
+The platform should simulate how smart city infrastructure uses AI to prevent urban flooding.
+
+Core Functional Modules
+1. Flood Prediction Intelligence
+
+Design an AI-based prediction system that evaluates the probability of flooding in specific urban regions.
+
+The model should analyze:
+
+• Rainfall intensity
+• Drainage system capacity
+• Water level sensors
+• Soil moisture levels
+• Area elevation
+
+Based on these inputs, the AI must classify the flood risk into:
+
+LOW risk
+MEDIUM risk
+HIGH risk
+
+The system should also estimate:
+
+• Probability of flooding
+• Estimated time before flooding occurs
+• Confidence score of prediction
+
+The prediction results must be displayed clearly on the dashboard using visual indicators and alerts.
+
+2. Smart Sensor Monitoring System
+
+Design a simulated IoT monitoring system that continuously generates environmental data similar to real smart city sensors.
+
+Sensors should monitor:
+
+• Rainfall levels
+• Water accumulation levels
+• Drainage capacity usage
+• Soil moisture levels
+
+The data should update dynamically to simulate real-time monitoring.
+
+Users should be able to observe how sensor changes affect flood predictions.
+
+3. Interactive Smart City Map
+
+Create an interactive city map showing monitored regions.
+
+Example regions can include areas such as:
+
+Shivaji Nagar
+Baner
+Aundh
+Wakad
+Hinjewadi
+
+Each area should be color-coded based on flood risk.
+
+Green → Safe
+Yellow → Moderate risk
+Red → High flood risk
+
+When a user clicks on a region, a detailed panel should appear displaying:
+
+• current rainfall
+• drainage capacity
+• water level sensor readings
+• predicted flood risk
+• recommended preventive actions
+
+The map should behave like a smart city command center visualization tool.
+
+AI Emergency Report Generator
+
+The system must include a generative AI module that produces an automatic emergency response report whenever flood risk becomes medium or high.
+
+The report should include:
+
+Location of risk
+Flood risk level
+Predicted flooding time
+Key environmental factors contributing to risk
+Recommended actions for authorities
+
+Example recommended actions:
+
+Drain clearance
+Deploy water pumps
+Issue public warnings
+Prepare emergency response teams
+
+The report should be displayed in a professional format similar to a government disaster management report.
+
+User Interface & Design Requirements
+
+Design a modern smart-city dashboard interface.
+
+The UI should look like a futuristic command center used by urban infrastructure monitoring systems.
+
+Design style should include:
+
+Dark themed dashboard
+Clean layouts
+Large data panels
+Animated indicators
+Minimal clutter
+
+Suggested color palette:
+
+Dark navy background
+Electric blue highlights
+Green indicators for safe conditions
+Yellow warnings for moderate risk
+Red alerts for high flood risk
+
+Typography should be modern and readable, such as Inter or Poppins.
+
+Dashboard Layout
+
+The main dashboard should contain several key sections:
+
+1. Sensor Monitoring Cards
+
+Display real-time values for:
+
+Rainfall intensity
+Water level sensors
+Drainage system capacity
+Soil moisture
+
+Each card should show the latest value along with small visual indicators showing trends.
+
+2. Flood Risk Indicator
+
+A prominent visual component that displays the current flood risk level.
+
+The indicator should be large, color-coded, and immediately visible so users can quickly assess the situation.
+
+3. Prediction Panel
+
+Provide a section where users can view flood predictions and understand what factors contributed to the risk level.
+
+The panel should clearly show:
+
+Risk classification
+Flood probability
+Estimated time before flooding
+
+4. Interactive Map Section
+
+Display the monitored city areas with color-coded flood risk indicators.
+
+The map should support interaction so users can explore different regions.
+
+5. AI Emergency Report Panel
+
+Display the automatically generated emergency report when risk increases.
+
+Users should be able to:
+
+View the report
+Download it
+Share it with authorities
+
+Data Visualization
+
+Include visual analytics such as:
+
+Rainfall trend graphs
+Water level trend graphs
+Drainage capacity utilization charts
+Flood probability graphs
+
+The charts should update dynamically as sensor data changes.
+
+Alert System
+
+Design a visual alert mechanism that activates when flood risk reaches high levels.
+
+The dashboard should display a prominent warning message notifying users that flooding may occur soon.
+
+Alerts should be highly visible but not overwhelming.
+
+Responsiveness
+
+The entire application should be responsive and usable on:
+
+Desktop screens
+Tablets
+Mobile devices
+
+Final Goal
+
+The final system should simulate a real smart city flood monitoring platform that demonstrates how AI can help cities prevent flooding disasters.
+
+The application should feel realistic, professional, and interactive, similar to a municipal smart infrastructure control center.
+
+Focus on creating a visually impressive, interactive, and intelligent platform that clearly demonstrates the power of AI in urban disaster management.
